@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Unbounded:wght@300;400;500;900&display=swap");
 
 * {
   margin: 0;
@@ -8,18 +8,13 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  /* cursor: url(https://ani.cursors-4u.net/cursors/cur-13/cur1162.ani),
-    url(https://ani.cursors-4u.net/cursors/cur-13/cur1162.png), auto !important; */
   cursor: url(https://ani.cursors-4u.net/cursors/cur-12/cur1103.ani),
     url(https://ani.cursors-4u.net/cursors/cur-12/cur1103.png), auto !important;
 }
 
 :root {
-  /* --color-bg: #1f1f38; */
   --color-bg: #03001c;
-  /* --color-bg-variant: #2c2c6c; */
   --color-bg-variant: #210e5a;
-  /* --color-primary: #4db5ff; */
   --color-primary: #47b5ff;
   --color-primary-variant: rgba(30, 107, 162, 0.4);
   --color-white: #fff;
@@ -41,14 +36,10 @@ html {
 }
 
 body {
-  /* font-family: "Laila", sans-serif; */
-  /* font-family: "Montserrat", sans-serif; */
-  /* font-family: "Sacramento", cursive; */
   font-family: "Unbounded", cursive;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  /* background-image: url(../scr/assets/bg-texture.png); */
 }
 
 /* ======================== General Styles =========================*/

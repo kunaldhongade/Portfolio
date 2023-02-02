@@ -35,7 +35,7 @@ const About = () => {
                         </article>
                     </div>
                     <p>
-                        I am an experienced Ethereum blockchain developer with a passion for decentralized systems and smart contract development. With extensive knowledge of Solidity and the Ethereum ecosystem, I am well-equipped to build secure and scalable decentralized applications on the Ethereum platform. My expertise in web3.js, Truffle, and Infura allows me to seamlessly integrate decentralized applications with the Ethereum network. I am also experienced in working with React.js for front-end development, which enhances the user experience of my decentralized applications. My commitment to writing clean and efficient code, combined with my ability to deliver high-quality results on time, makes me an asset to any blockchain development team.
+                        I am an experienced Ethereum blockchain developer with a passion for decentralized systems and smart contract development. With extensive knowledge of Solidity and the Ethereum ecosystem, I am well-equipped to build secure and scalable decentralized applications on the Ethereum platform. My expertise in Ethers.js, Hardhat, and Infura allows me to seamlessly integrate decentralized applications with the Ethereum network. I am also experienced in working with React.js for front-end development, which enhances the user experience of my decentralized applications. My commitment to writing clean and efficient code, combined with my ability to deliver high-quality results on time, makes me an asset to any blockchain development team.
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>

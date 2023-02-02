@@ -44,10 +44,14 @@
 .service__list-icon {
   color: var(--color-primary);
   margin-top: 2px;
+  font-size: 0.95em;
 }
 
 .service__list p {
   font-size: 0.7rem;
+  color: var(--color-light);
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /*========================== MEDIA QUERIES (MEDIUM DEVICES) =========================*/

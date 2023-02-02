@@ -1,10 +1,10 @@
 import React from 'react';
 import './footer.css';
-import { FaFacebookSquare } from 'react-icons/fa';
-import { ImInstagram } from 'react-icons/im';
-import { FaTwitterSquare } from 'react-icons/fa';
-import { FaGithubSquare } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
+import { SlSocialFacebook } from 'react-icons/sl';
+import { BsInstagram } from 'react-icons/bs';
+import { SlSocialTwitter } from 'react-icons/sl';
+import { TbBrandGithub } from 'react-icons/tb';
+import { SlSocialLinkedin } from 'react-icons/sl';
 
 const Footer = () => {
     return (
@@ -19,11 +19,11 @@ const Footer = () => {
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div className="footer__socials">
-                <a href="https://github.com/kunaldhongade"><FaGithubSquare /></a>
-                <a href="https://twitter.com/kunaldhongade"><FaTwitterSquare /></a>
-                <a href="https://facebook.com/kunaldhongade99"><FaFacebookSquare /></a>
-                <a href="https://linkedin.com/in/kunaldhongade"><FaLinkedin /></a>
-                <a href="https://instagram.com/kunaldhongade99"><ImInstagram /></a>
+                <a href="https://github.com/kunaldhongade"><TbBrandGithub className="footer__socials-icon" /></a>
+                <a href="https://twitter.com/kunaldhongade"><SlSocialTwitter className="footer__socials-icon" /></a>
+                <a href="https://facebook.com/kunaldhongade99"><SlSocialFacebook className="footer__socials-icon" /></a>
+                <a href="https://linkedin.com/in/kunaldhongade"><SlSocialLinkedin className="footer__socials-icon" /></a>
+                <a href="https://instagram.com/kunaldhongade99"><BsInstagram className="footer__socials-icon" /></a>
             </div>
 
             <div className="footer__copyright">

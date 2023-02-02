@@ -1,5 +1,4 @@
 section {
-  /* height: 100vh; */
   padding-top: 4rem;
 }
 .about__container {
@@ -74,11 +73,13 @@ section {
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .about__content p {
   margin: 2rem 0 2.6rem;
-  font-size: small;
+  font-size: 0.739rem;
   font-weight: 200;
   color: var(--color-light);
 }

@@ -23,67 +23,9 @@ header {
 .header__container h1 {
   font-weight: 900;
   font-size: 3rem;
-  /* -webkit-animation: color-change 1s infinite;
-  -moz-animation: color-change 1s infinite;
-  -o-animation: color-change 1s infinite;
-  -ms-animation: color-change 1s infinite;
-  animation: color-change 1s infinite; */
+  letter-spacing: 0.139rem;
 }
-@-webkit-keyframes color-change {
-  0% {
-    color: red;
-  }
-  50% {
-    color: blue;
-  }
-  100% {
-    color: red;
-  }
-}
-@-moz-keyframes color-change {
-  0% {
-    color: red;
-  }
-  50% {
-    color: blue;
-  }
-  100% {
-    color: red;
-  }
-}
-@-ms-keyframes color-change {
-  0% {
-    color: red;
-  }
-  50% {
-    color: blue;
-  }
-  100% {
-    color: red;
-  }
-}
-@-o-keyframes color-change {
-  0% {
-    color: red;
-  }
-  50% {
-    color: blue;
-  }
-  100% {
-    color: red;
-  }
-}
-@keyframes color-change {
-  0% {
-    color: red;
-  }
-  50% {
-    color: blue;
-  }
-  100% {
-    color: red;
-  }
-}
+
 /*============ CTA ==============*/
 .cta {
   margin-top: 2.5rem;
@@ -109,20 +51,6 @@ header {
   width: 1px;
   height: 2rem;
   background-color: var(--color-primary);
-}
-
-/*============ ME ==============*/
-
-.me {
-  background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  height: 30rem;
-  position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /*============ SCROLL DOWN ==============*/

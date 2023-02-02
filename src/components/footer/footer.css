@@ -51,6 +51,10 @@ footer a {
   color: var(--color-bg);
 }
 
+.footer__socials-icon {
+  font-size: 1.225em;
+}
+
 /*===================== MEDIA QUERIES(MEDIUM DEVICES) =====================*/
 @media screen and (max-width: 600px) {
   .permalinks {
