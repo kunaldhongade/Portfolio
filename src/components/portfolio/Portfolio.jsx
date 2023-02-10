@@ -3,6 +3,7 @@ import './portfolio.css';
 import CrowF from '../../assets/CrowF.png';
 import Ruru from '../../assets/Ruru.png';
 import Dtwitter from '../../assets/Dtwitter.png';
+import CoinSmash from '../../assets/CoinSmash.png'
 
 const data = [
     {
@@ -22,13 +23,21 @@ const data = [
         demo: 'https://crowf.vercel.app',
     },
     {
-        id: 1,
+        id: 3,
         image: Dtwitter,
         alt: 'dtwitter',
         title: 'Twitter - Crowdfunding app on Polygon',
         github: 'https://github.com/kunaldhongade/Dtwitter',
         demo: 'http://dtwitter-inky.vercel.app/',
     },
+    {
+        id: 4,
+        image: CoinSmash,
+        alt: 'CoinSmash',
+        title: 'CoinSmash is a Crypto price analytics tool',
+        github: 'https://github.com/kunaldhongade/CoinSmash',
+        demo: 'https://coinsmash.vercel.app',
+    }
 ]
 
 const Portfolio = () => {
